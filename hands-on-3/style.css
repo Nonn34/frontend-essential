@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+/* *ส่วนบน */
+nav {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+/* *ส่วนบน */
+.menu-container {
+  margin: 0px auto;
+  width: 80%;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 14px;
+}
+
+/* *ส่วนบน */
+.menu-container > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* *ส่วนบน */
+.brand {
+  font-size: 24px;
+  color: green;
+}
+
+/* *ส่วนบน */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: grey;
+}
+
+p {
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* * งงอยู่ */
+#site-main {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  margin: 36px auto 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+/* * งงอยู่ */
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 26px;
+}
+
+/* * งงอยู่ */
+section > p {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* *ศึกษาเพิ่ม */
+.mainproduct {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: max-content;
+  gap: 16px;
+  text-align: center;
+}
+
+.container {
+  margin: 50px;
+  background-color: white;
+  border-radius: 6px; /* * ศึกษาเพิ่ม */
+  overflow: hidden; /* * ศึกษาเพิ่ม */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.container img {
+  width: 100%;
+}
+
+h4 {
+  gap: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.topic {
+  text-align: center;
+}
+
+/* #nav1 {
+  margin-left: 0px;
+}
+#nav2 {
+  margin-right: 0px;
+} */
+
+/* #site-header {
+  padding: 50px 0px;
+  box-sizing: border-box;
+  display: inline-block;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 12%),
+    0px 4px 5px 0px rgb(0 0 0 / 12%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+} */
