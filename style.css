@@ -5,3 +5,27 @@
 .important {
   text-decoration: underline;
 }
+
+.milestones-container {
+  display: flex;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 1080px;
+  padding: 0 20px;
+}
+
+.milestones-card {
+  background-color: white;
+}
+
+@media (max-width: 764px) {
+  .milestones-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .milestones-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
